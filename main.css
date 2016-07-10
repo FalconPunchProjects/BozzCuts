@@ -1,0 +1,99 @@
+.backdrop {
+    background-image:      url('http://www.userlogos.org/files/backgrounds/trogdor/mybackground.jpg');
+    
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav a {
+  color: snow;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav {
+    background-color: black;
+    top: 50px;
+}
+
+.jumbotron {
+  background-color:black; /*url('hair3.jpg')*/
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0px;
+  padding: 0px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:50px;
+
+}
+
+.jumbotron .mySlides {
+  align-content: center;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  text-align: right;
+  color: whitesmoke;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+    text-align: right;
+}
+
+.learn-more {
+  background-image: url(back3.jpg);
+  color: slategrey;  
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.learn-more p {
+    color: darkgray;
+}
+
+top-spacer{
+    padding: 50px;
+}
+top-spacer .img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.learn-more h5 {
+  text-align: left;
+  color: black;
+  font-size: 28px;  
+  font-family: 'Shift', cursive;
+  margin: 20px;
+}
+
+
+/* use pacifico for header on Erick's name */

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Boss Cutz by Erick</title>
+        
+        <meta name="Houston barber" content="Precise and clean haircuts by Houston barber with over 6 years of experience.">
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+         <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="main.css">    
+        <style>
+            .mySlides {display:none}
+            .w3-left, .w3-right, .w3-badge {cursor:pointer}
+            .w3-badge {height:13px;width:13px;padding:0}
+        </style>
+<body>
+        
+    </head>
+    <body>
+        <div class="nav">
+          <div class="container">
+            <ul class=pull-left>
+                    <li><a href="#">Boss Cutz</a></li>
+            </ul>
+            <ul class="pull-right">
+                    <li><a href="#">Sundays-Saturdays 7am-9pm</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="backdrop">
+            <div class="container">
+                <div class="jumbotron">
+                    
+                    <div class="w3-content w3-display-container" style="max-height:650px">
+                      <img class="mySlides" src="hair1.jpg" style="width:100%">
+                         <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black ">
+                            Book Your Next Appointment
+                         </div>
+                      <img class="mySlides" src="hair2.jpg" style="width:100%">
+                        <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black ">
+                            Book Your Next Appointment
+                         </div>
+                      <img class="mySlides" src="hair3.jpg" style="width:100%">
+                        <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black ">
+                            Book Your Next Appointment
+                         </div>
+                        
+                      <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomright" style="width:100%">
+                        <!-- /*<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                        
+                        <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div> -->
+                       
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                       </div>
+                      </div>
+                    
+                    
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                          showDivs(slideIndex += n);
+                        }
+
+                        function currentDiv(n) {
+                          showDivs(slideIndex = n);
+                        }
+
+                        function showDivs(n) {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("demo");
+                          if (n > x.length) {slideIndex = 1}
+                          if (n < 1) {slideIndex = x.length}
+                          for (i = 0; i < x.length; i++) {
+                             x[i].style.display = "none";
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].className = dots[i].className.replace(" w3-white", "");
+                          }
+                          x[slideIndex-1].style.display = "block";
+                          dots[slideIndex-1].className += " w3-white";
+                        }
+                        </script>
+                 
+                    
+                </div> 
+
+                <!-- END of to be made PHP file -->
+                
+                <div class="learn-more">
+                  <div class="container">
+                    <div>                            
+                           <div class="row" style="text-align: center;">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2"> <a href="index.html"><h4>Services</h4></a> </div>
+                                <div class="col-md-2"> <a href="about.html"><h4>About</h4></a> </div>
+                                <div class="col-md-2"> <a href="book.html"><h4>Book Appointment</h4></a> </div>
+                                <div class="col-md-2"> <a href="gallery.html"><h4>Gallery</h4></a> </div>
+                                <div class="col-md-2"></div>
+                            </div>                        
+                <!-- END of navigation -->
+                        <div class="top-spacer">
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-3"> </div>
+                                <div class="col-md-6"> 
+                                    <div>
+                                    <table class="table" style="width:100%">
+                                      <tr>
+                                        <td style="text-align: left;">Haircut</td>
+                                        <td style="text-align: right;">30</td>
+                                      </tr>
+                                      <tr>
+                                        <td style="text-align: left;">Razor Shave</td>
+                                        <td style="text-align: right;">20</td>
+                                      </tr>
+                                        <tr>
+                                        <td style="text-align: left;">Beard Trim</td>
+                                        <td style="text-align: right;">15</td>
+                                      </tr>
+                                        <tr>
+                                        <td style="text-align: left;">Haircut with shave</td>
+                                        <td style="text-align: right;">40</td>
+                                        <tr>
+                                        <td style="text-align: left;">Child's Cut</td>
+                                        <td style="text-align: right;">25</td>
+                                      </tr>
+                                        <tr>
+                                        <td style="text-align: left;">Child's Cut with Designs</td>
+                                        <td style="text-align: right;">35</td>
+                                      </tr>
+                                        <tr>
+                                        <td style="text-align: left;">Designs</td>
+                                        <td style="text-align: right;">15</td>
+                                      </tr>
+                                        <tr>
+                                        <td style="text-align: left;">Clean Up</td>
+                                        <td style="text-align: right;">12</td>
+                                      </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-3"> </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END of website body -->
+                
+                <div class="nav" style="background-color: darkgrey; height: 60px;">
+                    <div class="container" style="text-align: center; color: whitesmoke;">
+                        <p><strong>Boss Cutz</strong></p>
+                        <p><strong>Sundays-Saturdays 7am-9pm</strong></p>
+                    </div>
+                </div>
+                
+                <!-- End of Grey color band -->
+                
+                <div class="nav">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="col-md-4">
+                            </ul>
+                              <ul class="col-md-4">
+                                <li class="col-md-3">
+                                  </li>
+                                <li class="col-md-2">
+                                  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+                                </li>
+                                <li class="col-md-2">
+                                  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+                                </li>
+                                <li class="col-md-2">
+                                  <a href="https://www.instagram.com/gentlemans.barbershop/">
+                                  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+                                   </a>
+                                </li>
+                                <li class="col-md-3">
+                                  </li>
+                              </ul>
+                            <ul class="col-md-4">
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+                
+                <!-- End of Social Media logos -->
+                
+            </div>
+        </div>
+    </body>
+</html>
+
